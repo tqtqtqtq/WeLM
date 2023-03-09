@@ -1,10 +1,7 @@
 {
   "name": "tqtqtqtq/welm",
   "description": "WeLM的API客户端 - PHP（非官方）",
-  "keywords": [
-    "tqtqtqtq",
-    "welm"
-  ],
+  "license": "MIT",
   "authors": [
     {
       "name": "tqtqtqtq",
@@ -16,12 +13,10 @@
     "ext-curl": "*",
     "ext-json": "*"
   },
-  "license": "MIT",
+
   "autoload": {
     "psr-4": {
       "tqtqtqtq\\welm\\": "src"
     }
-  },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+  }
 }
