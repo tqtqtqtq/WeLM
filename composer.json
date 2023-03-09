@@ -11,7 +11,6 @@
       "email": "tqx4@foxmail.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=7.4",
     "ext-curl": "*",
@@ -22,5 +21,7 @@
     "psr-4": {
       "tqtqtqtq\\welm\\": "src"
     }
-  }
+  },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
