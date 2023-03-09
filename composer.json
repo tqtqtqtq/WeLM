@@ -1,9 +1,9 @@
 {
-  "name": "tqtqtqtq/WeLM",
+  "name": "tqtqtqtq/welm",
   "description": "WeLM的API客户端 - PHP（非官方）",
   "keywords": [
     "tqtqtqtq",
-    "WeLM"
+    "welm"
   ],
   "authors": [
     {
@@ -20,7 +20,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "tqtqtqtq\\WeLM\\": "src"
+      "tqtqtqtq\\welm\\": "src"
     }
   }
 }
