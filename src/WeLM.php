@@ -4,7 +4,8 @@ namespace tqtqtqtq\WeLM;
 
 class WeLM
 {
-    private string $模型 = "xl";
+    private string $测试字符 = '测试输出成功';
+	private string $模型 = "xl";
     private array $请求头组;
     private array $内容类型组;
     private int $超时 = 0;
@@ -143,4 +144,10 @@ class WeLM
             $网址 = str_replace(端点::基本网址, $this->自定义网址, $网址);
         }
     }
+	
+	
+	public function 测试自动加载()
+	{
+		echo $this->测试字符;
+	}
 }
