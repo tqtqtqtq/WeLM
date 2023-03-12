@@ -1,5 +1,4 @@
 <?php
-declare(encoding='UTF-8');
 namespace tqtqtqtq\WeLM;
 
 class 端点
